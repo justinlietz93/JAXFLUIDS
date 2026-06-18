@@ -16,7 +16,8 @@ from jaxfluids_postprocess.post_process_utils import (
     generate_paraview_pngs_2D,
     load_data,
     load_statistics,
-    reassemble_parallel_data
+    reassemble_parallel_data,
+    JaxFluidsData,
 )
 
 from jaxfluids_postprocess.h5py_utils import (
