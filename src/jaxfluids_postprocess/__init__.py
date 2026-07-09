@@ -10,6 +10,10 @@ from jaxfluids_postprocess.matplotlib_utils import (
     create_3D_figure,
 )
 
+from jaxfluids_postprocess.buffer_operations import (
+    make_fill_halos_fn,
+)
+
 from jaxfluids_postprocess.post_process_utils import (
     create_xdmf_from_h5,
     generate_paraview_pngs,
@@ -37,4 +41,5 @@ __all__ = (
     "load_statistics",
     "save_dict_to_h5",
     "load_dict_from_h5",
+    "make_fill_halos_fn",
 )
